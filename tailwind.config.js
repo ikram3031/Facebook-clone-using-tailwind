@@ -2,6 +2,9 @@ module.exports = {
   content: [],
   theme: {
     extend: {
+      backgroundImage:{
+        'feed':"url('/imgs/ikram.jpg')",
+      },
       borderWidth: {
         DEFAULT: '1px',
         0: '0px',

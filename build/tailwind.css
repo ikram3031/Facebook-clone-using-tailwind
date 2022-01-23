@@ -11756,8 +11756,8 @@ video {
 
 .divide-x > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-x-reverse: 0;
-  border-right-width: calc(0.5px * var(--tw-divide-x-reverse));
-  border-left-width: calc(0.5px * calc(1 - var(--tw-divide-x-reverse)));
+  border-right-width: calc(1px * var(--tw-divide-x-reverse));
+  border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
 }
 
 .divide-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -11786,8 +11786,8 @@ video {
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
-  border-top-width: calc(0.5px * calc(1 - var(--tw-divide-y-reverse)));
-  border-bottom-width: calc(0.5px * var(--tw-divide-y-reverse));
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 
 .divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -12871,7 +12871,7 @@ video {
 }
 
 .border {
-  border-width: 0.5px;
+  border-width: 1px;
 }
 
 .border-t-0 {
@@ -12891,7 +12891,7 @@ video {
 }
 
 .border-t {
-  border-top-width: 0.5px;
+  border-top-width: 1px;
 }
 
 .border-r-0 {
@@ -12911,7 +12911,7 @@ video {
 }
 
 .border-r {
-  border-right-width: 0.5px;
+  border-right-width: 1px;
 }
 
 .border-b-0 {
@@ -12931,7 +12931,7 @@ video {
 }
 
 .border-b {
-  border-bottom-width: 0.5px;
+  border-bottom-width: 1px;
 }
 
 .border-l-0 {
@@ -12951,7 +12951,7 @@ video {
 }
 
 .border-l {
-  border-left-width: 0.5px;
+  border-left-width: 1px;
 }
 
 .border-solid {
@@ -17788,6 +17788,10 @@ video {
 
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-feed {
+  background-image: url('/imgs/ikram.jpg');
 }
 
 .from-transparent {
@@ -43336,8 +43340,8 @@ video {
 
   .sm\:divide-x > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-x-reverse: 0;
-    border-right-width: calc(0.5px * var(--tw-divide-x-reverse));
-    border-left-width: calc(0.5px * calc(1 - var(--tw-divide-x-reverse)));
+    border-right-width: calc(1px * var(--tw-divide-x-reverse));
+    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
   }
 
   .sm\:divide-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -43366,8 +43370,8 @@ video {
 
   .sm\:divide-y > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
-    border-top-width: calc(0.5px * calc(1 - var(--tw-divide-y-reverse)));
-    border-bottom-width: calc(0.5px * var(--tw-divide-y-reverse));
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
   }
 
   .sm\:divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -44451,7 +44455,7 @@ video {
   }
 
   .sm\:border {
-    border-width: 0.5px;
+    border-width: 1px;
   }
 
   .sm\:border-t-0 {
@@ -44471,7 +44475,7 @@ video {
   }
 
   .sm\:border-t {
-    border-top-width: 0.5px;
+    border-top-width: 1px;
   }
 
   .sm\:border-r-0 {
@@ -44491,7 +44495,7 @@ video {
   }
 
   .sm\:border-r {
-    border-right-width: 0.5px;
+    border-right-width: 1px;
   }
 
   .sm\:border-b-0 {
@@ -44511,7 +44515,7 @@ video {
   }
 
   .sm\:border-b {
-    border-bottom-width: 0.5px;
+    border-bottom-width: 1px;
   }
 
   .sm\:border-l-0 {
@@ -44531,7 +44535,7 @@ video {
   }
 
   .sm\:border-l {
-    border-left-width: 0.5px;
+    border-left-width: 1px;
   }
 
   .sm\:border-solid {
@@ -49368,6 +49372,10 @@ video {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-feed {
+    background-image: url('/imgs/ikram.jpg');
   }
 
   .sm\:from-transparent {
@@ -74564,8 +74572,8 @@ video {
 
   .md\:divide-x > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-x-reverse: 0;
-    border-right-width: calc(0.5px * var(--tw-divide-x-reverse));
-    border-left-width: calc(0.5px * calc(1 - var(--tw-divide-x-reverse)));
+    border-right-width: calc(1px * var(--tw-divide-x-reverse));
+    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
   }
 
   .md\:divide-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -74594,8 +74602,8 @@ video {
 
   .md\:divide-y > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
-    border-top-width: calc(0.5px * calc(1 - var(--tw-divide-y-reverse)));
-    border-bottom-width: calc(0.5px * var(--tw-divide-y-reverse));
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
   }
 
   .md\:divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -75679,7 +75687,7 @@ video {
   }
 
   .md\:border {
-    border-width: 0.5px;
+    border-width: 1px;
   }
 
   .md\:border-t-0 {
@@ -75699,7 +75707,7 @@ video {
   }
 
   .md\:border-t {
-    border-top-width: 0.5px;
+    border-top-width: 1px;
   }
 
   .md\:border-r-0 {
@@ -75719,7 +75727,7 @@ video {
   }
 
   .md\:border-r {
-    border-right-width: 0.5px;
+    border-right-width: 1px;
   }
 
   .md\:border-b-0 {
@@ -75739,7 +75747,7 @@ video {
   }
 
   .md\:border-b {
-    border-bottom-width: 0.5px;
+    border-bottom-width: 1px;
   }
 
   .md\:border-l-0 {
@@ -75759,7 +75767,7 @@ video {
   }
 
   .md\:border-l {
-    border-left-width: 0.5px;
+    border-left-width: 1px;
   }
 
   .md\:border-solid {
@@ -80596,6 +80604,10 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-feed {
+    background-image: url('/imgs/ikram.jpg');
   }
 
   .md\:from-transparent {
@@ -105792,8 +105804,8 @@ video {
 
   .lg\:divide-x > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-x-reverse: 0;
-    border-right-width: calc(0.5px * var(--tw-divide-x-reverse));
-    border-left-width: calc(0.5px * calc(1 - var(--tw-divide-x-reverse)));
+    border-right-width: calc(1px * var(--tw-divide-x-reverse));
+    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
   }
 
   .lg\:divide-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -105822,8 +105834,8 @@ video {
 
   .lg\:divide-y > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
-    border-top-width: calc(0.5px * calc(1 - var(--tw-divide-y-reverse)));
-    border-bottom-width: calc(0.5px * var(--tw-divide-y-reverse));
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
   }
 
   .lg\:divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -106907,7 +106919,7 @@ video {
   }
 
   .lg\:border {
-    border-width: 0.5px;
+    border-width: 1px;
   }
 
   .lg\:border-t-0 {
@@ -106927,7 +106939,7 @@ video {
   }
 
   .lg\:border-t {
-    border-top-width: 0.5px;
+    border-top-width: 1px;
   }
 
   .lg\:border-r-0 {
@@ -106947,7 +106959,7 @@ video {
   }
 
   .lg\:border-r {
-    border-right-width: 0.5px;
+    border-right-width: 1px;
   }
 
   .lg\:border-b-0 {
@@ -106967,7 +106979,7 @@ video {
   }
 
   .lg\:border-b {
-    border-bottom-width: 0.5px;
+    border-bottom-width: 1px;
   }
 
   .lg\:border-l-0 {
@@ -106987,7 +106999,7 @@ video {
   }
 
   .lg\:border-l {
-    border-left-width: 0.5px;
+    border-left-width: 1px;
   }
 
   .lg\:border-solid {
@@ -111824,6 +111836,10 @@ video {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-feed {
+    background-image: url('/imgs/ikram.jpg');
   }
 
   .lg\:from-transparent {
@@ -137020,8 +137036,8 @@ video {
 
   .xl\:divide-x > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-x-reverse: 0;
-    border-right-width: calc(0.5px * var(--tw-divide-x-reverse));
-    border-left-width: calc(0.5px * calc(1 - var(--tw-divide-x-reverse)));
+    border-right-width: calc(1px * var(--tw-divide-x-reverse));
+    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
   }
 
   .xl\:divide-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -137050,8 +137066,8 @@ video {
 
   .xl\:divide-y > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
-    border-top-width: calc(0.5px * calc(1 - var(--tw-divide-y-reverse)));
-    border-bottom-width: calc(0.5px * var(--tw-divide-y-reverse));
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
   }
 
   .xl\:divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -138135,7 +138151,7 @@ video {
   }
 
   .xl\:border {
-    border-width: 0.5px;
+    border-width: 1px;
   }
 
   .xl\:border-t-0 {
@@ -138155,7 +138171,7 @@ video {
   }
 
   .xl\:border-t {
-    border-top-width: 0.5px;
+    border-top-width: 1px;
   }
 
   .xl\:border-r-0 {
@@ -138175,7 +138191,7 @@ video {
   }
 
   .xl\:border-r {
-    border-right-width: 0.5px;
+    border-right-width: 1px;
   }
 
   .xl\:border-b-0 {
@@ -138195,7 +138211,7 @@ video {
   }
 
   .xl\:border-b {
-    border-bottom-width: 0.5px;
+    border-bottom-width: 1px;
   }
 
   .xl\:border-l-0 {
@@ -138215,7 +138231,7 @@ video {
   }
 
   .xl\:border-l {
-    border-left-width: 0.5px;
+    border-left-width: 1px;
   }
 
   .xl\:border-solid {
@@ -143052,6 +143068,10 @@ video {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-feed {
+    background-image: url('/imgs/ikram.jpg');
   }
 
   .xl\:from-transparent {
@@ -168248,8 +168268,8 @@ video {
 
   .\32xl\:divide-x > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-x-reverse: 0;
-    border-right-width: calc(0.5px * var(--tw-divide-x-reverse));
-    border-left-width: calc(0.5px * calc(1 - var(--tw-divide-x-reverse)));
+    border-right-width: calc(1px * var(--tw-divide-x-reverse));
+    border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
   }
 
   .\32xl\:divide-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -168278,8 +168298,8 @@ video {
 
   .\32xl\:divide-y > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
-    border-top-width: calc(0.5px * calc(1 - var(--tw-divide-y-reverse)));
-    border-bottom-width: calc(0.5px * var(--tw-divide-y-reverse));
+    border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+    border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
   }
 
   .\32xl\:divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -169363,7 +169383,7 @@ video {
   }
 
   .\32xl\:border {
-    border-width: 0.5px;
+    border-width: 1px;
   }
 
   .\32xl\:border-t-0 {
@@ -169383,7 +169403,7 @@ video {
   }
 
   .\32xl\:border-t {
-    border-top-width: 0.5px;
+    border-top-width: 1px;
   }
 
   .\32xl\:border-r-0 {
@@ -169403,7 +169423,7 @@ video {
   }
 
   .\32xl\:border-r {
-    border-right-width: 0.5px;
+    border-right-width: 1px;
   }
 
   .\32xl\:border-b-0 {
@@ -169423,7 +169443,7 @@ video {
   }
 
   .\32xl\:border-b {
-    border-bottom-width: 0.5px;
+    border-bottom-width: 1px;
   }
 
   .\32xl\:border-l-0 {
@@ -169443,7 +169463,7 @@ video {
   }
 
   .\32xl\:border-l {
-    border-left-width: 0.5px;
+    border-left-width: 1px;
   }
 
   .\32xl\:border-solid {
@@ -174280,6 +174300,10 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-feed {
+    background-image: url('/imgs/ikram.jpg');
   }
 
   .\32xl\:from-transparent {
